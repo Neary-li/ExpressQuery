@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/express/express",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3ABAE5",
+    "navigationBarTitleText": "快递查询",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#3ABAE5",
+    "list": [
+      {
+        "text": "查快递",
+        "pagePath": "pages/index/index",
+        "iconPath": "resource/images/search.png",
+        "selectedIconPath": "resource/images/search_select.png"
+      },
+      {
+        "text": "寄快递",
+        "pagePath": "pages/express/express",
+        "iconPath": "resource/images/express.png",
+        "selectedIconPath": "resource/images/express_select.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/personal/personal",
+        "iconPath": "resource/images/personal.png",
+        "selectedIconPath": "resource/images/personal_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

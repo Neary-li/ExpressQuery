@@ -1,1 +1,50 @@
 /* pages/index/index.wxss */
+page{
+
+  background: #F0EFF4;
+  /* background: green; */
+  padding: 0rpx;
+}
+.container{
+  /* width: 100%; */
+  /* background: yellow; */
+  padding: 0rpx;
+  margin: 0rpx;
+}
+.expressNum{
+  border: 1rpx solid #FFF;
+  background: #FFF;
+  padding: 15rpx;
+  border-radius: 20rpx;
+  margin: 5%;
+}
+.radioGroup{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  /* justify-content: space-around; */
+  padding: 0 5%;
+  
+} 
+.radio{
+  width: 33.33%;
+  
+  margin: 20rpx 0;
+}
+.gueryBtn{
+  margin: 5%;
+
+  background: #3ABAE5;
+  color: #FFF;
+}
+.expressInfo{
+  width:90%;
+  margin: 5%;
+  height: 100%;
+  font-size: 30rpx;
+}
+.expressInfo view{
+  padding: 20rpx 0;
+}
